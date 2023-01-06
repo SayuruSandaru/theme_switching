@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         builder: (context, state) {
           return MaterialApp(
             title: 'Flutter Demo',
-            theme: state.isDarkTheme ? darkThemeData : lightThemeData,
+            theme: state.isDarkTheme ? darkTheme : lightTheme,
             home: const Home(),
           );
         },
